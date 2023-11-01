@@ -9,8 +9,6 @@ impractical to create new pages in the proper subdirectories so they, e.g.
 Instead of dealing with maintaining those pages for redirection, let
 `jekyll-redirect-from` handle it for you.
 
-[![Build Status](https://github.com/jekyll/jekyll-redirect-from/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jekyll/jekyll-redirect-from/actions/workflows/ci.yml)
-
 ## How it Works
 
 Redirects are performed by serving an HTML file with an HTTP-REFRESH meta
@@ -21,7 +19,7 @@ file, or anything else will be generated. It simply creates HTML files.
 
 Add this line to your application's Gemfile:
 
-    gem 'jekyll-redirect-from'
+    gem 'jekyll-redirect-from', git: 'https://github.com/Young-Lord/jekyll-redirect-from', branch: 'master'
 
 And then execute:
 
